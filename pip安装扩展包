@@ -1,0 +1,32 @@
+# Python-mooc
+安装扩展库 pip 命令行模式下
+pip install numpy
+
+
+你是否正确安装了Python IDE并且可以成功运行两个测试程序？
+1.安装Python IDE（可以只安装Python 3.x版本的Anaconda）
+IDLE url：http://python.org
+Anaconda url：https://www.continuum.io/downloads
+
+
+2.测试IDE的功能
+(1)
+from pylab import * 
+from scipy.cluster.vq import * 
+list1 = [88.0,74.0,96.0,85.0]
+list2 = [92.0,99.0,95.0,94.0]
+list3 = [91.0,87.0,99.0,95.0]
+list4 = [78.0,99.0,97.0,81.0]
+list5 = [88.0,78.0,98.0,84.0]
+list6 = [100.0,95.0,100.0,92.0]
+data = vstack((list1,list2,list3,list4,list5,list6))
+centroids,_ = kmeans(data,2)
+result,_= vq(data,centroids)
+print(result)   # result is [0 1 1 1 0 1]
+ 
+(2)
+import numpy as np
+import matplotlib.pyplot as plt
+t = np.arange(0., 4., 0.1)
+plt.plot(t, t, t, t+2, t, t**2)
+#我是图，我是图，我是图
