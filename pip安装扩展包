@@ -30,3 +30,6 @@ import matplotlib.pyplot as plt
 t = np.arange(0., 4., 0.1)
 plt.plot(t, t, t, t+2, t, t**2)
 #我是图，我是图，我是图
+#在Python2中需要使用plt.show()显示图
+
+Python3中input 返回的是字符串，因此如果想要其他类型需要用int、flot等函数转换，在2中则是input只允许输入整数，其他输入用raw_input
