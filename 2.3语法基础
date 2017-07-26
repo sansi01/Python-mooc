@@ -1,0 +1,27 @@
+1、python赋值直接赋值
+pi = 3.1415926
+不需要指定类型
+2、直接用运算式赋值
+a = 2+3*5-6
+3、多个赋值
+（a,b） = 6
+4、直接交换赋值
+x,y = y,x
+5、多层赋值
+（a,b） = 3,5
+a=3
+b=5
+
+pi = 3.14159
+r = 3
+cricum = 2*pi*r**2
+print cricum
+
+3<4<7 #sama as (3<4) and (4<7)
+
+4>3==3#same as (4>3) and (3==3)
+#导入模块
+#import ModuleName
+#import ModuleName1,ModuleName2,....
+#from Module import ModuleElement
+#import ModuleName as np
