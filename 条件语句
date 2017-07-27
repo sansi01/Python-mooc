@@ -1,0 +1,47 @@
+条件结构
+#猜数字
+from random import randint
+x = randint(0,300)
+digit = int(input('please input a number between 0-300:'))
+if digit == x:
+    print 'Bingo!'
+elif digit>x:
+    print 'Too large,please try again.'
+else :
+    print 'Too small,please try again'
+    
+ # range()
+# range(start.end,step=1)
+# range(start,end)
+# range(end)
+# start 起始值（包含）缺省为0
+# end 终止值 （不包含）
+# step 步长 不能为0 缺省为1   
+    a = range(3,11,2)
+print a
+a = range(3,11)
+print a
+a = range(11)
+print a
+
+
+[3, 5, 7, 9]
+[3, 4, 5, 6, 7, 8, 9, 10]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+
+
+for i in range(10):
+    sumA +=i
+    print sumA
+    
+    
+    #  break语句  满足时跳出
+# continue语句   满足时回到头部
+
+#函数自定义
+
+def addme2me(x):
+    return (x+x)
+d = addme2me(4)
+print d
