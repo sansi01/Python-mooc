@@ -1,0 +1,3 @@
+文件打开
+file1= open（filename，mode=‘r’，....）
+f.read()
