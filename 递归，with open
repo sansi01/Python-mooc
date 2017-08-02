@@ -1,0 +1,53 @@
+#递归
+#函数自定义
+
+# def addme2me(x):
+#     return (x+x)
+# d = addme2me(4)
+# print d
+
+
+#递归
+# def foo(num,base):
+#     if(num >= base):
+#         foo(num // base , base)
+#     print num%base
+#
+# numA = int(input())
+# numB = int(input())
+# foo(numA,numB)
+#
+# import random
+# a = random.choice(['霸道总裁风', '冷艳高贵风', '扎心了老铁风','人来疯'])
+# print a
+
+#异常处理
+
+try-except
+try:
+.....
+.....
+except value error:
+print 'please input a digit'
+
+
+可以用多个except语句捕捉错误
+或直接输出错误 print err
+
+如果没有异常可以执行 else 语句，给出结果
+
+若果没有错误发生，可以在except语句前插入break语句，直接忽略
+
+
+finally语句，不管是否发生异常finally语句块都将被处理。
+finally：
+   print ****
+   
+   上下文管理器和with语句
+   with opendat（‘a.txt’） as f:
+       for line in f:
+           print(line,end='')
+           
+ 使用with open
+       
+   
